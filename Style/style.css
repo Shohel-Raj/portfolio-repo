@@ -13,3 +13,85 @@
     padding: 0px;
     margin: 0px;
 }
+.pramiry-c{
+    color: #FD6E0A;
+}
+
+/* navigation desin */
+header {
+    background-color: #fff8f3;
+    background-image: url(../images/developer.png) ,url(../images/header_bg.png);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat;
+    padding: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 150px;
+
+    
+}
+
+.btn{
+    /* width: 87px; */
+    
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 13px;
+}
+
+nav>h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+nav>h1 {
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 200;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #474747;
+}
+
+.h-img {
+    width: 580px;
+}
+.h-img img{
+    width: 100%;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 15px 0px 150px;
+}
+.h-content{
+    width: 580px;
+}
+.h-content .g{
+    font-size: 45px;
+    font-weight: 600;
+}
+.h-content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
