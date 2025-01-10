@@ -36,7 +36,7 @@ nav{
 
 .btn{
     /* width: 87px; */
-    
+    cursor: pointer;
     background: #FD6E0A;
     font-size: 20px;
     font-weight: bold;
@@ -86,6 +86,7 @@ nav ul li a {
 }
 .h-content{
     width: 580px;
+    margin-top: 150px;
 }
 .h-content .g{
     font-size: 45px;
@@ -93,5 +94,57 @@ nav ul li a {
 }
 .h-content h1{
     font-size: 50px;
+    font-weight: bold;
+}
+.h-content button {
+    margin-top: 22px;
+}
+button.btn2 {
+    margin-left: 19px;
+    background: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+}
+
+
+/* About me section */
+
+section#about-me {
+    margin: 25px 209px 0px 230px;
+    background: #fff8f3;
+    padding: 100px;
+}
+.contan-about {
+    padding: 15px;
+    background: #fff;
+}
+.contan-about h2 {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 11px;
+    font-weight: 700;
+    color: #181818;
+}
+.contan-about .dsc {
+    text-align: center;
+    color: #757575;
+    margin-bottom: 21px;
+}
+.info-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px 0px 20px;
+}
+.info-me .info {
+    text-align: center;
+}
+.info-me .info span {
+    color: #757575;
+    font-size: 17px;
+}
+.info-me .info p {
+    line-height: 30px;
+    color: #474747;
     font-weight: bold;
 }
