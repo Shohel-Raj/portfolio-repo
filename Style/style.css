@@ -240,3 +240,62 @@ hr {
 .sumaryCard {
     margin-top: 25px;
 }
+/* Footer section */
+#footer{
+    background: #fff8f3;
+    padding: 70px 209px 30px 230px;
+}
+.social-logo{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.social-logo li{
+    list-style: none;
+}
+.social-logo li a{
+    text-decoration: none;
+}
+.footer-sec{
+    display: flex;
+    gap: 15px;
+}
+.left-footer {
+    width: 50%;
+}
+.right-footer{
+    width: 45%;
+    padding-left: 160px;
+}
+.left-footer h3 {
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.left-footer p {
+    margin-bottom: 17px;
+    display: block;
+}
+.right-footer h3{
+    font-size: 29px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.right-footer input {
+    width: 233px;
+    height: 19px;
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.right-footer textarea {
+    width: 233px;
+    height: 100px;
+    display: block;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
